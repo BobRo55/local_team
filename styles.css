@@ -1,0 +1,464 @@
+body{
+    padding:0;
+    margin: 0;
+    color: hsl(246, 76, 5);
+    background-color: hsl(240, 60, 99);
+    
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Ubuntu;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: "Istok Web";
+    font-size: 2rem;
+    
+}
+
+p{
+    font-family: "Hind Madurai";
+}
+
+img{
+    display: block;
+    width: 100%;
+    
+}
+
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 3rem;
+    background-color: #ff9900;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    z-index: 100;
+}
+
+.logo_name{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+
+.logo{
+    width: 8rem;
+}
+
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+li{
+    padding: 1rem 1rem;
+    list-style: none;
+    font-family: "Istok Web";
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.join{
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 2.2rem;
+    height: 1.8rem;
+    margin-left: 2rem;
+    width: 7rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.join:hover{
+    color: black;
+    background-color: white;
+}
+
+a:active, a{
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    transition: 0.1s ease;
+}
+
+a:hover{
+    color:black
+}
+
+.hero_section{
+    background-image: url(resources/Hero\ Section.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+}
+
+.activity{
+    display: flex;
+    flex-flow:row  wrap;
+    justify-content: center;
+    align-items: start;
+    padding: 10rem 6rem;
+    background-color: #ff9900;
+}
+
+.text{
+    width: 30%;
+    background-color: #FBF6F1;
+    padding: 2rem;
+    border-radius: 2rem ;
+    min-width: 20rem;
+    margin-top: 2rem;
+}
+
+.text h2{
+    
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.text h1{
+    padding: 0rem;
+    margin: 0rem;
+    color: #ff9900;
+}
+
+.images{
+  padding: 2rem;
+}
+
+.grid{
+  display: grid;
+  width: 60rem;
+  height: 30rem;
+  grid-template-areas:
+  'img3 img1 img1 img4'
+  'img3 img2 img2 img4';
+  gap: 2rem;
+}
+
+.image1{
+  grid-area: img1;
+  transition: 0.2s ease;
+}
+
+.image1:hover{
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.image2{
+  grid-area: img2;
+  transition: 0.2s ease;
+}
+.image2:hover{
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.image3{
+  grid-area: img3;
+  transition: 0.2s ease;
+}
+.image3:hover{
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.image4{
+  grid-area: img4;
+  transition: 0.2s ease;
+}
+.image4:hover{
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.image {
+  width: 20rem;
+  
+}
+
+img{
+  overflow: hidden;
+  object-fit: cover;
+  height: 100%;
+ 
+}
+
+  .sponsors{
+    padding: 5rem 10rem;
+    background-color: #ff9900;;
+  }
+
+  .sponsor_section{
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: start;
+    border-width: 1rem;
+    border-style: solid;
+    border-color: #ff9900;
+    background-color: #FBF6F1;;
+    border-radius: 5rem;
+    min-width: 20rem;
+    height: 100%;
+  }
+
+  .heading{
+    padding: 1rem;
+    margin: 3rem auto;
+    background-color: black;
+    color: #FBF6F1;
+    width:40%;
+    border-radius: 10rem;
+  }
+
+  .heading h1{
+    margin: 0;
+    color: #ff9900;
+  }
+
+  .heading h2{
+    margin: 0;
+  }
+
+  .sponsor_images{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+  }
+
+  .sponsor{
+    width: 20rem;
+  }
+
+
+  .location{
+    color: white;
+    background-color: black;
+    margin-top: 0;
+    padding: 5rem 5rem;
+  }
+
+  .join_section{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5em;
+    justify-content: space-around;
+  }
+
+  .join_section h1{
+    background-color: black;
+    padding: 0.8rem 5rem;
+    border-radius: 1rem;
+  }
+
+  .social_medias{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    border-radius: 3rem;
+    background-color: #ff9900;
+    width: 50rem;
+    padding: 2rem;
+  }
+
+  input{
+    border-style: solid;
+    border-color: black;
+    font-family: "Hind Madurai";
+    height: 2rem;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+  }
+
+  .information{
+    padding-top: 1rem;
+  }
+
+  .number{
+    display: flex;
+    padding: 1rem;
+    justify-content: start;
+    align-items: center;
+    height: 2rem;
+    color: black;
+    font-size: 1rem;
+  }
+
+  .number img{
+    width: 2rem;
+    margin-right: 0.6rem;
+  }
+
+  .number h2{
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0
+  }
+
+  .social_media_ico{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 4rem;
+  }
+
+  .social_ico{
+    width: 3rem; 
+    padding: 0rem;
+    transition: transform 0.2s ease; 
+    cursor: pointer;
+}
+
+.social_ico:hover{
+    transform: scale(1.1); 
+}
+
+footer{
+  display: flex;
+  padding: 0.5rem 2rem;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+}
+
+.right_footer{
+  display: flex;
+  gap: 1rem;
+}
+
+.right_footer p{
+  cursor: pointer;
+}
+  
+  @media (max-width: 80em) {
+
+    .logo_name h1{
+      display: none;
+    }
+
+    header{
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 1rem 1rem;
+    }
+
+    .activity {
+      display: flex;
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center; 
+      min-height: 100vh;
+      margin: 0 auto;
+      padding: 5rem 2rem;
+      background-color: #ff9900;
+    }
+  
+    .text {
+      width: 90%; 
+      background-color: #FBF6F1;
+      padding: 2rem;
+      border-radius: 2rem;
+      margin: 2rem auto; 
+    }
+  
+    .grid {
+      display: grid;
+      width: 100%; 
+      height: auto;
+      grid-template-areas:
+        'img3 img3'
+        'img1 img1'
+        'img2 img2'
+        'img4 img4';
+      gap: 1rem;
+    }
+  
+    .images {
+      height: auto;
+    }
+    
+    .image {
+      width: 100%; 
+      height: auto; 
+      overflow: hidden; 
+    }
+    
+    img {
+      display: block; 
+      width: 100%; 
+      height: auto; 
+      object-fit: cover; 
+    }
+  
+    .hm_button{
+      display: none;
+    }
+  
+    .heading{
+      padding: 1rem;
+      margin: 3rem auto;
+      background-color: black;
+      color: #FBF6F1;
+      width:50%;
+      border-radius: rem;
+    }
+
+    .heading h1{
+      font-size: 2rem;
+    }
+
+    .heading h2{
+      display: none;
+    }
+
+    .sponsors{
+      padding: 5rem 2rem;
+    }
+  
+    .sponsor_section{
+      text-align: center;
+      display: flex;
+      flex-flow: column wrap;
+      align-items: start;
+      border-width: 1rem;
+      border-style: solid;
+      border-color: #ff9900;
+      background-color: #FBF6F1;;
+      border-radius: 5rem;
+      min-width: 20rem;
+      height: 100%;
+    }
+  
+    .sponsor_images{
+      display: flex;
+      flex-flow: row wrap;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden; 
+    }
+
+    .join_section h1{
+      background-color: black;
+      padding: 0.8rem 2rem;
+      border-radius: 1rem;
+      font-size: 1.8rem;
+    }
+  }
