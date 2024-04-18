@@ -461,4 +461,8 @@ footer{
       border-radius: 1rem;
       font-size: 1.8rem;
     }
+
+      iframe{
+          width: 50%;
+      }
   }
